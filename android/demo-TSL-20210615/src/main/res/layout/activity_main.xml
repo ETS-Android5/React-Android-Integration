@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <com.wifiview.images.SurfaceView
+        android:id="@+id/mSurfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/iv_main_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="invisible"
+        android:src="@drawable/main_background" />
+
+    <TextView
+        android:id="@+id/txt_Record_Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dip"
+        android:textColor="#FF0000"
+        android:textSize="18sp"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/layout_Left_Menubar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <ImageView
+            android:id="@+id/iv_Main_TakePhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/main_takephoto_state" />
+
+        <ImageView
+            android:id="@+id/iv_Main_TakeVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/main_takevideo_state" />
+
+        <ImageView
+            android:id="@+id/iv_Main_Playback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/main_playback_state" />
+
+        <ImageView
+            android:id="@+id/iv_Main_Setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/main_setting_state" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+        <item android:drawable="@drawable/bf" android:state_pressed="true" />
+        <item android:drawable="@drawable/bf_h"/>      
+</selector>

@@ -1,0 +1,161 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.molink.demotsl"
+4    android:versionCode="2"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\debug\AndroidManifest.xml:4:1-73
+11-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\debug\AndroidManifest.xml:4:18-71
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:8:5-67
+12-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:8:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:9:5-81
+13-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:9:22-78
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:10:5-75
+14-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:10:22-73
+15    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+15-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:11:5-76
+15-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:11:22-73
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:12:5-79
+16-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:12:22-76
+17    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+17-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:13:5-70
+17-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:13:22-68
+18
+19    <application
+19-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:17:5-95:19
+20        android:name="com.wifiview.MainApplication"
+20-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:18:9-52
+21        android:allowBackup="true"
+21-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:20:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.5.0] C:\Users\arnau\.gradle\caches\transforms-3\8091e88265a2bdec2561f7dc53bbc273\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@drawable/ic_launcher"
+24-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:21:9-45
+25        android:label="@string/app_name"
+25-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:22:9-41
+26        android:testOnly="true"
+27        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+27-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:19:9-65
+28        android:usesCleartextTraffic="true" >
+28-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:23:9-44
+29        <activity android:name="com.wifiview.MainActivity" >
+29-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:26:9-32:20
+29-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:26:19-59
+30            <intent-filter>
+30-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:27:13-31:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:28:17-69
+31-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:28:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:30:17-77
+33-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:30:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:34:9-49:20
+37            android:name="com.wifiview.activity.PrincipalActivity"
+37-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:35:13-67
+38            android:screenOrientation="landscape"
+38-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:36:13-50
+39            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+39-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:37:13-77
+40            <intent-filter>
+40-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:38:13-45:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:28:17-69
+41-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:28:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:30:17-77
+43-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:30:27-74
+44
+45                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
+45-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:43:17-92
+45-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:43:25-90
+46                <action android:name="android.hardware.usb.action.USB_ACCESSORY_DETACHED" />
+46-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:44:17-93
+46-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:44:25-90
+47            </intent-filter>
+48
+49            <meta-data
+49-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:46:13-48:59
+50                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+50-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:47:17-82
+51                android:resource="@xml/accessory_filter" />
+51-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:48:17-57
+52        </activity>
+53        <activity
+53-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:50:9-54:20
+54            android:name="com.wifiview.activity.LoadingActivity"
+54-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:51:13-65
+55            android:screenOrientation="landscape"
+55-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:52:13-50
+56            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+56-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:53:13-71
+57        </activity>
+58        <activity
+58-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:55:9-61:20
+59            android:name="com.wifiview.activity.PlaybackActivity"
+59-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:56:13-66
+60            android:icon="@drawable/actionbar_photo"
+60-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:57:13-53
+61            android:label="@string/label_Playback_Activity"
+61-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:59:13-60
+62            android:screenOrientation="landscape"
+62-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:60:13-50
+63            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+63-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:58:13-77
+64        </activity>
+65        <activity
+65-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:62:9-66:20
+66            android:name="com.wifiview.activity.ImagePagerActivity"
+66-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:63:13-68
+67            android:screenOrientation="landscape"
+67-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:64:13-50
+68            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+68-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:65:13-77
+69        </activity>
+70        <activity
+70-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:67:9-71:20
+71            android:name="com.wifiview.activity.VideoPlayer"
+71-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:68:13-61
+72            android:screenOrientation="landscape"
+72-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:69:13-50
+73            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+73-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:70:13-77
+74        </activity>
+75        <activity
+75-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:72:9-76:20
+76            android:name="com.wifiview.activity.SetActivity"
+76-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:73:13-61
+77            android:screenOrientation="landscape"
+77-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:74:13-50
+78            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+78-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:75:13-77
+79        </activity>
+80        <activity
+80-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:77:9-81:20
+81            android:name="com.wifiview.activity.SelectActivity"
+81-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:78:13-64
+82            android:screenOrientation="landscape"
+82-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:79:13-50
+83            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+83-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:80:13-77
+84        </activity>
+85        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+85-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:83:9-86
+85-->C:\Users\arnau\Desktop\SMARTRONICS\APDMedical\AppReactOtoscope\AndroidIntegration\android\demo-TSL-20210615\src\main\AndroidManifest.xml:83:19-83
+86    </application>
+87
+88</manifest>

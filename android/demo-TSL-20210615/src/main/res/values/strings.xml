@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">demo-tsl</string>
+
+    <!-- playback activity -->
+    <string name="label_Playback_Activity">Album</string>
+    <string name="tv_Playback_Photos">Photos</string>
+    <string name="tv_Playback_Videos">Videos</string>
+    <string name="tv_Playback_BuiltinSdcard">手机存储</string>
+    <string name="tv_Playback_ExternalSdcard">外置SD卡</string>
+    <string name="str_playback_notfindexcard">未发现存储设备</string>
+    <string name="str_playback_warning">警告</string>
+    <string name="str_playback_deletephoto">删除此图片？</string>
+    <string name="str_playback_deletevideo">删除此视频？</string>
+    <string name="str_playback_confirm">确认</string>
+    <string name="str_playback_cancel">取消</string>
+
+    <!-- display image activity -->
+    <string name="iv_Display_Image_Content">images</string>
+
+    <!-- gridview photos item -->
+    <string name="tv_Photo_Name">default.jpg</string>
+    <string name="description_iv_change_cam">change camera local or wifi cam</string>
+    <string name="Iv_Pop_Selector">listview selector in popupwindow</string>
+
+    <!-- videoplayer.xml -->
+    <string name="tv_VideoPlayer_Time">tv_VideoPlayer_Time</string>
+
+    <!-- activity_setting.xml -->
+    <string name="tv_SdcardChoose">外置SD卡</string>
+    <string name="tv_TurnDirection">按键靠左</string>
+    <string name="txt_modify_name">修改WiFi名</string>
+    <string name="txt_reboot_device">重启设备</string>
+    <string name="txt_modify_password">修改密码</string>
+    <string name="txt_clear_password">清除密码</string>
+    <string name="txt_change_resolution">修改分辨率</string>
+    <string name="str_set_namenull">名称不能为空！</string>
+    <string name="str_set_lessthaneight">密码不能少于8位！</string>
+    <string name="str_set_setok">设置成功！</string>
+    <string name="str_set_setfail">设置失败！</string>
+    <string name="str_set_tips">提示</string>
+    <string name="str_set_wrongres">错误的分辨率</string>
+    <string name="str_set_videoformat">设置格式</string>
+
+    <!-- select activity -->
+    <string name="txt_select_onemorepress">再按一次退出程序</string>
+
+    <!-- main activity -->
+    <string name="txt_stop_record">请先停止录像</string>
+    <string name="SD_card_full">SD卡空间不足</string>
+
+    <!-- ImagePager Activity -->
+    <string name="str_imagepager_filename">文件名：</string>
+    <string name="str_imagepager_filepath">文件路径：</string>
+    <string name="str_imagepager_time">时间：</string>
+    <string name="str_imagepager_filesize">文件大小：</string>
+    <string name="str_imagepager_resolution">分辨率：</string>
+    <string name="str_imagepager_filetype">文件类型：</string>
+    
+    <string-array name="spin_resolution">
+        <item>320*240</item>
+        <item>640*480</item>
+        <item>1280*960</item>
+        <item>1600*1200</item>
+        <item>2048*1536</item>
+        <item>2592*1944</item>
+    </string-array>
+    
+    <string-array name="spin_videoformat">
+        <item>MJPEG</item>
+        <item>YUYV</item>
+    </string-array>
+
+</resources>

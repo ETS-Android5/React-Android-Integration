@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spin_resolution">
+        <item>320*240</item>
+        <item>640*480</item>
+        <item>1280*960</item>
+        <item>1600*1200</item>
+        <item>2048*1536</item>
+        <item>2592*1944</item>
+    </string-array>
+    <string-array name="spin_videoformat">
+        <item>MJPEG</item>
+        <item>YUYV</item>
+    </string-array>
+    <string name="Iv_Pop_Selector">listview selector in popupwindow</string>
+    <string name="SD_card_full">SD card memory is full, delete some files!</string>
+    <string name="app_name">demo-tsl</string>
+    <string name="description_iv_change_cam">change camera local or wifi cam</string>
+    <string name="iv_Display_Image_Content">images</string>
+    <string name="label_Playback_Activity">Album</string>
+    <string name="str_imagepager_filename">File Name:</string>
+    <string name="str_imagepager_filepath">File Path:</string>
+    <string name="str_imagepager_filesize">File Size:</string>
+    <string name="str_imagepager_filetype">File Type:</string>
+    <string name="str_imagepager_resolution">Resolution:</string>
+    <string name="str_imagepager_time">Time:</string>
+    <string name="str_playback_cancel">Cancel</string>
+    <string name="str_playback_confirm">Confirm</string>
+    <string name="str_playback_deletephoto">Delete this photo?</string>
+    <string name="str_playback_deletevideo">Delete this video?</string>
+    <string name="str_playback_notfindexcard">Can not find ex sdcard</string>
+    <string name="str_playback_warning">WARNING</string>
+    <string name="str_set_lessthaneight">Password less than eight</string>
+    <string name="str_set_namenull">The WiFi name can not be null</string>
+    <string name="str_set_setfail">Setting failure</string>
+    <string name="str_set_setok">Setting Success</string>
+    <string name="str_set_tips">TIPS</string>
+    <string name="str_set_videoformat">Set Video Format</string>
+    <string name="str_set_wrongres">Wrong Resolution</string>
+    <string name="tv_Photo_Name">default.jpg</string>
+    <string name="tv_Playback_BuiltinSdcard">Built-in SDCard</string>
+    <string name="tv_Playback_ExternalSdcard">External SDCard</string>
+    <string name="tv_Playback_Photos">Photos</string>
+    <string name="tv_Playback_Videos">Videos</string>
+    <string name="tv_SdcardChoose">Choose ExSDcard</string>
+    <string name="tv_TurnDirection">Button AlignLeft</string>
+    <string name="tv_VideoPlayer_Time">tv_VideoPlayer_Time</string>
+    <string name="txt_change_resolution">Modify Resolution</string>
+    <string name="txt_clear_password">Clear password</string>
+    <string name="txt_modify_name">Modify WiFi name</string>
+    <string name="txt_modify_password">Modify password</string>
+    <string name="txt_reboot_device">Reboot device</string>
+    <string name="txt_select_onemorepress">Press again to exit the program</string>
+    <string name="txt_stop_record">Please stop record first</string>
+</resources>

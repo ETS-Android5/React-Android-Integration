@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_Main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <com.wifiview.images.PlaybackSurfaceView
+        android:id="@+id/playSurfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/layout_player_top_menubar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/replay_top_menubar_bg"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/iv_player_top_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/backicon"
+            android:onClick="onBackButtonClick" />
+
+        <TextView
+            android:id="@+id/tv_player_top_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Title"
+            android:textColor="@color/yellow"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_player_bottom_menubar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/time_bar" >
+        
+        
+        <ImageView
+            android:id="@+id/iv_player_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/actionbar_back_bg_state"
+            android:scaleType="fitXY"
+            android:src="@drawable/player_play" />
+
+        <TextView
+            android:id="@+id/tv_player_bottom_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/iv_player_play"
+            android:text="00:00/00:00"
+            android:textSize="13sp" />
+
+        <SeekBar
+            android:id="@+id/seekbar_player_play"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:maxHeight="4.0dip"
+            android:minHeight="4.0dip"
+            android:paddingLeft="16.0dip"
+            android:paddingRight="16.0dip"
+            android:layout_toRightOf="@id/tv_player_bottom_time"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/seekbar_pro"
+            android:thumb="@drawable/seekbar_thum"
+            />
+    </RelativeLayout>
+
+    
+
+</RelativeLayout>
